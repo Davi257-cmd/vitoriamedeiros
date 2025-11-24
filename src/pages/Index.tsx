@@ -11,6 +11,7 @@ import CTASection from "@/components/CTASection";
 import FAQ from "@/components/FAQ";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const Index = () => {
   return (
@@ -28,6 +29,7 @@ const Index = () => {
       <FAQ />
       <Contact />
       <Footer />
+      <ThemeToggle />
     </div>
   );
 };

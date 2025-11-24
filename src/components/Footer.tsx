@@ -2,7 +2,7 @@ import { Instagram, Mail, Phone, MapPin, Facebook, Youtube } from "lucide-react"
 
 const Footer = () => {
   return (
-    <footer className="bg-primary-dark text-primary-foreground">
+    <footer className="bg-primary-dark dark:bg-primary-dark text-foreground border-t border-border">
       <div className="container mx-auto px-6 lg:px-12 py-12">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
@@ -13,12 +13,12 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="text-xl font-bold">Dra. Vitória Medeiros</h3>
-                <p className="text-sm text-primary-foreground/70">
+                <p className="text-sm text-muted-foreground">
                   Harmonização Orofacial
                 </p>
               </div>
             </div>
-            <p className="text-sm text-primary-foreground/80 leading-relaxed">
+            <p className="text-sm text-muted-foreground leading-relaxed">
               Especialista dedicada a transformar sorrisos e devolver a confiança que cada mulher merece. Sua jornada de amor próprio começa aqui.
             </p>
           </div>
@@ -30,7 +30,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#sobre"
-                  className="text-primary-foreground/70 hover:text-primary smooth-transition"
+                  className="text-muted-foreground hover:text-primary smooth-transition"
                 >
                   Sobre
                 </a>
@@ -38,7 +38,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#procedimentos"
-                  className="text-primary-foreground/70 hover:text-primary smooth-transition"
+                  className="text-muted-foreground hover:text-primary smooth-transition"
                 >
                   Procedimentos
                 </a>
@@ -46,7 +46,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#transformacoes"
-                  className="text-primary-foreground/70 hover:text-primary smooth-transition"
+                  className="text-muted-foreground hover:text-primary smooth-transition"
                 >
                   Transformações
                 </a>
@@ -54,7 +54,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#depoimentos"
-                  className="text-primary-foreground/70 hover:text-primary smooth-transition"
+                  className="text-muted-foreground hover:text-primary smooth-transition"
                 >
                   Depoimentos
                 </a>
@@ -62,7 +62,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#contato"
-                  className="text-primary-foreground/70 hover:text-primary smooth-transition"
+                  className="text-muted-foreground hover:text-primary smooth-transition"
                 >
                   Contato
                 </a>
@@ -79,7 +79,7 @@ const Footer = () => {
                   href="https://instagram.com/dra.vitoriamedeiross"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary smooth-transition"
+                  className="flex items-center gap-2 text-muted-foreground hover:text-primary smooth-transition"
                 >
                   <Instagram className="w-5 h-5" />
                   <span className="text-sm">@dra.vitoriamedeiross</span>
@@ -90,7 +90,7 @@ const Footer = () => {
                   href="https://facebook.com/dravitoriamedeiross"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary smooth-transition"
+                  className="flex items-center gap-2 text-muted-foreground hover:text-primary smooth-transition"
                 >
                   <Facebook className="w-5 h-5" />
                   <span className="text-sm">Facebook</span>
@@ -101,7 +101,7 @@ const Footer = () => {
                   href="https://youtube.com/@dravitoriamedeiross"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-primary-foreground/70 hover:text-primary smooth-transition"
+                  className="flex items-center gap-2 text-muted-foreground hover:text-primary smooth-transition"
                 >
                   <Youtube className="w-5 h-5" />
                   <span className="text-sm">YouTube</span>
@@ -114,21 +114,21 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-primary-foreground/10 pt-8 mt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/60">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
             <p>
               © 2025 Dra. Vitória Medeiros. Todos os direitos reservados.
             </p>
             <div className="flex items-center gap-4">
               <a
                 href="#"
-                className="text-primary-foreground/60 hover:text-primary smooth-transition"
+                className="text-muted-foreground hover:text-primary smooth-transition"
               >
                 Política de Privacidade
               </a>
               <span>|</span>
               <a
                 href="#"
-                className="text-primary-foreground/60 hover:text-primary smooth-transition"
+                className="text-muted-foreground hover:text-primary smooth-transition"
               >
                 Termos de Uso
               </a>
